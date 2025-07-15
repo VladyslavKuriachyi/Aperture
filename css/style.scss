@@ -100,7 +100,9 @@ nav {
   max-width: 1200px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  margin: 0 auto;
+  height: 90vh;
 
 }
   .hero_text {
@@ -145,6 +147,7 @@ p {
 .gallery_section {
   background-color: #000000;
   margin-bottom: 100px;
+  height: 1338px;
 
   .container-gallery {
     max-width: 1200px;
@@ -189,6 +192,22 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+   .read_more {
+     font-family: "Poppins", sans-serif;
+     padding: 10px 42px;
+     background-color: #fff;
+     color: #000;
+     border-radius: 14px;
+     align-items: flex-end;
+     text-align: end;
+     font-weight: 400;
+     transition: 0.3s ease;
+     position: relative;
+     top: 20px;
+     left: 0;
+     text-decoration: none;
+
+    }
 
 }
   .gallery_first {
@@ -196,24 +215,24 @@ p {
   }
   .gallery_text1 {
     position: absolute;
-    top: 495px;
+    bottom: 69px;
     left: 30px;
 
 
   }
   .gallery_text2 {
     position: absolute;
-    top: 495px;
+    bottom: 55px;
     left: 30px;
   }
   .gallery_text3 {
     position: absolute;
-    top: 495px;
+    bottom: 82px;
     left: 30px;
   }
   .gallery_text4 {
     position: absolute;
-    top: 495px;
+    bottom: 82px;
     left: 30px;
   }
 
@@ -249,7 +268,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 600px;
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -290,16 +309,15 @@ p {
   position: relative;
   background-color: black;
   background-repeat: no-repeat;
-  width: 50%;
-  height: 100vh;
+  width: 100%;
+  height: 540px;
   .container {
     max-width: 1200px;
     margin: 0 auto;
   }
   .about {
-   position: absolute;
-    top: 245px;
-    left: 30px;
+  padding-top: 173px;
+    padding-right: 100px;
 
   }
   h5 {
@@ -346,15 +364,18 @@ p {
   }
   .back-img {
     position: absolute;
-    width: 100%;
+    width: 50%;
     top: 0;
-    left: 95%;
+    right: 0;
+    img {
+      width: 100%;
+    }
+
   }
   .about-right {
     position: absolute;
-    top: 484px;
     bottom: 41px;
-    right: -650px;
+    right: 40px;
     a{
       display: inline-block;
     }
@@ -365,14 +386,14 @@ p {
   background-image: url('../img/plant.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 600px;
   .container {
     max-width: 1200px;
     margin: 0 auto;
   }
   .slider-1-text {
     position: absolute;
-    top: 260px;
+    top: 280px;
     right: 87px;
   }
   h5 {
@@ -393,7 +414,7 @@ p {
   }
   .slider-1-img {
     position: absolute;
-    bottom: 41px;
+    bottom: 40px;
     right: 40px;
   }
   a {
@@ -407,7 +428,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 50vh;
+  height: 500px;
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -440,7 +461,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 109px;
-   margin-top: 100px;
+   margin-top: 180px;
   }
 }
 .slider2_section {
@@ -448,7 +469,8 @@ p {
   background-image: url('../img/Mounts.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  width: 100%;
+  height: 600px;
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -488,7 +510,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 414px;
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -541,7 +563,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 652px;
   .container {
     display: flex;
     justify-content: space-around;

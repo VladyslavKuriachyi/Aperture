@@ -84,7 +84,9 @@ header .container nav ul li {
   max-width: 1200px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  margin: 0 auto;
+  height: 90vh;
 }
 .hero_section .hero_text {
   position: absolute;
@@ -125,6 +127,7 @@ header .container nav ul li {
 .gallery_section {
   background-color: #000000;
   margin-bottom: 100px;
+  height: 1338px;
 }
 .gallery_section .container-gallery {
   max-width: 1200px;
@@ -169,6 +172,21 @@ header .container nav ul li {
   flex-wrap: wrap;
   gap: 16px;
 }
+.gallery_image .read_more {
+  font-family: "Poppins", sans-serif;
+  padding: 10px 42px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 14px;
+  align-items: flex-end;
+  text-align: end;
+  font-weight: 400;
+  transition: 0.3s ease;
+  position: relative;
+  top: 20px;
+  left: 0;
+  text-decoration: none;
+}
 
 .gallery_first {
   position: relative;
@@ -176,25 +194,25 @@ header .container nav ul li {
 
 .gallery_text1 {
   position: absolute;
-  top: 495px;
+  bottom: 69px;
   left: 30px;
 }
 
 .gallery_text2 {
   position: absolute;
-  top: 495px;
+  bottom: 55px;
   left: 30px;
 }
 
 .gallery_text3 {
   position: absolute;
-  top: 495px;
+  bottom: 82px;
   left: 30px;
 }
 
 .gallery_text4 {
   position: absolute;
-  top: 495px;
+  bottom: 82px;
   left: 30px;
 }
 
@@ -229,7 +247,7 @@ header .container nav ul li {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 600px;
 }
 .sunset_section .container {
   max-width: 1200px;
@@ -269,17 +287,16 @@ header .container nav ul li {
   position: relative;
   background-color: black;
   background-repeat: no-repeat;
-  width: 50%;
-  height: 100vh;
+  width: 100%;
+  height: 540px;
 }
 .about_section .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 .about_section .about {
-  position: absolute;
-  top: 245px;
-  left: 30px;
+  padding-top: 173px;
+  padding-right: 100px;
 }
 .about_section h5 {
   font-family: "Poppins", sans-serif;
@@ -325,15 +342,17 @@ header .container nav ul li {
 }
 .about_section .back-img {
   position: absolute;
-  width: 100%;
+  width: 50%;
   top: 0;
-  left: 95%;
+  right: 0;
+}
+.about_section .back-img img {
+  width: 100%;
 }
 .about_section .about-right {
   position: absolute;
-  top: 484px;
   bottom: 41px;
-  right: -650px;
+  right: 40px;
 }
 .about_section .about-right a {
   display: inline-block;
@@ -344,7 +363,7 @@ header .container nav ul li {
   background-image: url("../img/plant.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 600px;
 }
 .slider1_section .container {
   max-width: 1200px;
@@ -352,7 +371,7 @@ header .container nav ul li {
 }
 .slider1_section .slider-1-text {
   position: absolute;
-  top: 260px;
+  top: 280px;
   right: 87px;
 }
 .slider1_section h5 {
@@ -373,7 +392,7 @@ header .container nav ul li {
 }
 .slider1_section .slider-1-img {
   position: absolute;
-  bottom: 41px;
+  bottom: 40px;
   right: 40px;
 }
 .slider1_section a {
@@ -386,7 +405,7 @@ header .container nav ul li {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 50vh;
+  height: 500px;
 }
 .clients_section .container {
   max-width: 1200px;
@@ -420,7 +439,7 @@ header .container nav ul li {
   justify-content: center;
   align-items: center;
   gap: 109px;
-  margin-top: 100px;
+  margin-top: 180px;
 }
 
 .slider2_section {
@@ -428,7 +447,8 @@ header .container nav ul li {
   background-image: url("../img/Mounts.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  width: 100%;
+  height: 600px;
 }
 .slider2_section .container {
   max-width: 1200px;
@@ -469,7 +489,7 @@ header .container nav ul li {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 414px;
 }
 .help_section .container {
   max-width: 1200px;
@@ -523,7 +543,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 652px;
 }
 footer .container {
   display: flex;
