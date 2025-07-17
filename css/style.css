@@ -483,6 +483,7 @@ header .container nav ul li {
   line-height: 105%;
   text-align: center;
   color: #fff;
+  margin-bottom: 15px;
 }
 .clients_section p {
   font-family: "Poppins", sans-serif;
@@ -567,6 +568,7 @@ header .container nav ul li {
   line-height: 105%;
   text-align: center;
   color: #fff;
+  margin-bottom: 15px;
 }
 .help_section p {
   font-family: "Poppins", sans-serif;
