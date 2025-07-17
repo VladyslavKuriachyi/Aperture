@@ -88,6 +88,7 @@ nav {
     margin-bottom: 35px;
     margin-top: 35px;
   }
+
 }
 .hero_section {
   position: relative;
@@ -706,10 +707,12 @@ footer {
     display: block;
     position: absolute;
     bottom: 100px;
+
     .newsletter-text {
-     position: absolute;
+      position: absolute;
       bottom: 20px;
       left: 0;
+
       &::before {
         content: "";
         display: block;
@@ -721,7 +724,7 @@ footer {
         left: 0;
 
       }
-}
+    }
 
     .column-title {
       display: ruby-text;
@@ -741,6 +744,7 @@ footer {
       line-height: 154%;
       color: #c0c0c0;
     }
+
     .footer-form {
       position: absolute;
       left: 741px;
@@ -748,7 +752,7 @@ footer {
       bottom: 40px;
     }
 
-    .footer-form form{
+    .footer-form form {
       display: flex;
       border: 1px solid #fff;
       border-radius: 8px;
@@ -789,6 +793,7 @@ footer {
       line-height: 143%;
       color: #c0c0c0;
     }
+
     ul {
       display: flex;
       position: absolute;
@@ -841,12 +846,12 @@ footer {
       top: 0;
     }
 
-    ul li:nth-child(1) a:before{
+    ul li:nth-child(1) a:before {
       background: #3b5999;
       opacity: 0.6;
     }
 
-    ul li:nth-child(2) a:before{
+    ul li:nth-child(2) a:before {
       background: #55acee;
       opacity: 0.4;
     }
@@ -857,4 +862,32 @@ footer {
     }
 
   }
+
+  .gallery_text2 .read_more:before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    border-radius: 50%;
+
+  }
+
+  .burger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+
+    span {
+      display: block;
+      height: 2px;
+      background: #fff;
+      border-radius: 2px;
+      transition: 0.3s;
+    }
+  }
 }
+

@@ -802,5 +802,28 @@ footer .footer-bottom ul li:nth-child(3) a:before {
   background: #f90;
   opacity: 0.4;
 }
+footer .gallery_text2 .read_more:before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: red;
+  border-radius: 50%;
+}
+footer .burger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  cursor: pointer;
+}
+footer .burger span {
+  display: block;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition: 0.3s;
+}
 
 /*# sourceMappingURL=style.css.map */
