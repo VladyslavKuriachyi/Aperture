@@ -1,6 +1,3 @@
-$( function() {
-    $( "#slider" ).slider();
-} );
 
 $('.owl-carousel').owlCarousel({
     autoplay:true,

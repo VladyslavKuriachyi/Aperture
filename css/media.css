@@ -1,36 +1,208 @@
-@media (max-width: 768px) {
-    .header_nav {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        background: #000;
-        transform: translateY(-150%);
-        transition: transform 0.3s ease;
-        text-align: center;
-
-        .header_nav_list {
-            flex-direction: column;
-            gap: 20px;
-            padding: 20px 0;
-        }
+@media screen and (max-width: 992px) {
+    header .container nav ul {
+        gap: 14px;
     }
 
-    .header_nav.active {
-        transform: translateY(0);
+    nav ul li a {
+        font-size: 12px;
+    }
+    .gallery_image p {
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+    .about_section .about {
+        padding-left: 10px;
+    }
+    .about_section p {
+        font-size: 12px;
+    }
+    .about_section .about-right {
+        bottom: 175px;
     }
 
-    .burger {
-        display: flex;
+}
+@media screen and (max-width: 768px) {
+    header .container nav ul {
+        gap: 6px;
     }
+    nav ul li a {
+        font-size: 5px;
+    }
+    .gallery_image p {
+        font-size: 8px;
+        text-transform: capitalize;
+    }
+    .gallery_text3 .read_more {
+        font-weight: 300;
+    }
+    .about_section p {
+        font-size: 10px;
+    }
+    .about_section .about-right {
+        bottom: 260px;
+    }
+    .about_section .about {
+        padding-left: 10px;
+        padding-top: 110px;
+    }
+    footer .footer-logo {
+        margin-top: 0;
+    }
+    footer .footer-links {
+        margin-top: 5px;
+    }
+    footer .footer-form {
+        max-width: 450px;
+    }
+    footer .btn-footer {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 540px) {
+    header .container nav  {
+        display: none;
 
-    .burger.active span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
     }
-    .burger.active span:nth-child(2) {
-        opacity: 0;
+    .about_section h4 {
+        font-size: 14px;
     }
-    .burger.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -5px);
+    .about_section p {
+        font-size: 7px;
+    }
+    .about_section .about {
+        padding-top: 60px;
+    }
+    .about_section .about-right {
+        bottom: 350px;
+        right: 2px;
+    }
+    .help_section h3 {
+        font-size: 30px;
+    }
+    .help_section p {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .gallery_image p {
+        font-size: 5px;
+        text-transform: capitalize;
+    }
+    .about_section .about {
+        padding-top: 40px;
+    }
+    .about_section p {
+        font-size: 5px;
+    }
+    .about_section .about-right {
+        max-width: 50%;
+        right: -40px;
+        bottom: 360px;
+    }
+    footer .btn-footer {
+        margin-top: -70px;
+    }
+    .gallery_text1 .read_more {
+        display: none;
+    }
+    .gallery_text2 .read_more {
+        display: none;
+    }
+    .gallery_text3 .read_more {
+        display: none;
+    }
+    .gallery_text4 .read_more {
+        display: none;
+    }
+}
+ @media screen and (max-width: 430px) {
+     .about_section .about-right {
+         bottom: 390px;
+     }
+     .help_section h3 {
+         font-size: 25px;
+     }
+     footer .footer-top {
+         gap: 0;
+     }
+     footer .footer-bottom {
+         gap: 8px;
+     }
+     .gallery_text1 .read_more {
+         display: none;
+     }
+     .gallery_text2 .read_more {
+         display: none;
+     }
+     .gallery_text3 .read_more {
+         display: none;
+     }
+     .gallery_text4 .read_more {
+         display: none;
+     }
+ }
+@media screen and (max-width: 320px) {
+    .gallery_text1 {
+        display: none;
+    }
+    .gallery_text2 {
+        display: none;
+    }
+    .gallery_text3 {
+        display: none;
+    }
+    .gallery_text4 {
+        display: none;
+    }
+    .about_section .about {
+        padding-top: 30px;
+    }
+    .about_section h5 {
+        font-size: 10px;
+    }
+    .about_section h4 {
+        font-size: 8px;
+    }
+    .about_section p {
+        font-size: 4px;
+    }
+    .about_section .check {
+        display: none;
+    }
+    .about_section .about-right {
+        display: none;
+    }
+    .slider1_section p {
+        font-size: 10px;
+    }
+    .sunset_section p {
+        font-size: 10px;
+    }
+    .clients_section .clients_logo {
+        display: none;
+    }
+    .slider2_section h5 {
+        font-size: 10px;
+    }
+    .slider2_section p {
+        font-size: 8px;
+    }
+    footer .footer-links {
+        display: none;
+    }
+    footer .footer-form {
+        display: none;
+    }
+    .gallery_text1 .read_more {
+        display: none;
+    }
+    .gallery_text2 .read_more {
+        display: none;
+    }
+    .gallery_text3 .read_more {
+        display: none;
+    }
+    .gallery_text4 .read_more {
+        display: none;
     }
 }

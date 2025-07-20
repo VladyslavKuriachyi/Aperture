@@ -159,13 +159,14 @@ header .container nav ul li {
 }
 
 .gallery img {
-  width: 576px;
-  height: 600px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .gallery_image {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
 
@@ -389,9 +390,15 @@ header .container nav ul li {
   left: 0;
   text-decoration: none;
 }
-.about_section .check .check_img {
-  width: 20px;
-  height: 20px;
+.about_section .check .check::before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
 }
 .about_section .check:hover {
   background-color: #ffffff;
