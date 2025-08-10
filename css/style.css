@@ -49,6 +49,9 @@ nav ul li ul li:after {
 nav ul li ul li:hover::after {
   width: auto;
 }
+nav ul li ul li.last_li::after {
+  display: none;
+}
 
 header .container {
   max-width: 1200px;
@@ -595,14 +598,15 @@ header .container nav ul li {
   background-color: #fff;
   color: #000;
   border-radius: 14px;
-  align-items: flex-end;
-  text-align: end;
   font-weight: 400;
   transition: 0.3s ease;
   position: relative;
   top: 20px;
   left: 0;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 .help_section .help_btn .help_btn:hover {
   background-color: #fff;
@@ -714,6 +718,8 @@ footer .footer-form input {
   height: 30px;
 }
 footer .btn-footer {
+  position: relative;
+  top: 10px;
   border-radius: 11px;
   width: 63px;
   height: 30px;
@@ -791,8 +797,11 @@ footer .footer-social {
   height: 32px;
   background-color: #000000;
   border-radius: 50%;
-  margin-bottom: -10px;
-  margin-left: -40px;
+  margin-left: -35px;
+}
+
+.header_nav_list li:last-child a {
+  text-decoration: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -57,6 +57,9 @@ background-color: black;
             &:hover::after {
               width: auto;
             }
+            &.last_li::after {
+              display: none;
+            }
           }
         }
       }
@@ -619,14 +622,15 @@ p {
     background-color: #fff;
     color: #000;
     border-radius: 14px;
-    align-items: flex-end;
-    text-align: end;
     font-weight: 400;
     transition: 0.3s ease;
     position: relative;
     top: 20px;
     left: 0;
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     .help_btn:hover {
       background-color: #fff;
       color: #000;
@@ -750,6 +754,8 @@ footer {
     }
   }
   .btn-footer{
+    position: relative;
+    top: 10px;
     border-radius: 11px;
     width: 63px;
     height: 30px;
@@ -828,7 +834,9 @@ footer {
   height: 32px;
   background-color: #000000;
   border-radius: 50%;
-  margin-bottom: -10px;
-  margin-left: -40px;
+  margin-left: -35px;
 
+}
+.header_nav_list li:last-child a {
+  text-decoration: none !important;
 }
